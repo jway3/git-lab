@@ -1,0 +1,16 @@
+{
+  "name": "jwaygree/public_html/IT355/git-lab",
+  "authors": [
+    {
+      "name": "James Way",
+      "email": "jway3@mail.greenriver.edu"
+    },
+    {
+      "name": "Abdalla Abdalla",
+      "email": "aabdalla3@mail.greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}
