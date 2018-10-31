@@ -15,4 +15,10 @@ $f3->route('GET /', function (){
 }
 );
 
+$f3->route('GET /page1',
+    function() {
+        $view = new View;
+        echo $view->render('{{Base}}views/page1.html');
+    });
+
 $f3->run();
