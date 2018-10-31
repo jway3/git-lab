@@ -21,4 +21,11 @@ $f3->route('GET /page1',
         echo $view->render('views/page1.html');
     });
 
+$f3->route('GET /page2',
+    function() {
+        $view = new View;
+        echo $view->render('views/page2.html');
+    });
+
+
 $f3->run();
