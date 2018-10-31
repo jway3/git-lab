@@ -27,5 +27,10 @@ $f3->route('GET /page2',
         echo $view->render('views/page2.html');
     });
 
+$f3->route('GET /page3',
+    function() {
+        $view = new View;
+        echo $view->render('views/page3.html');
+    });
 
 $f3->run();
